@@ -1,5 +1,13 @@
+import React from "react";
+import HeartBeatSVG from "./components/HeartBeatSVG";
+
 function Home() {
-    return <h1>Meu bolinho de mel, amo muito você </h1>
+  return (
+    <div>
+      {/* Outros componentes do seu app */}
+      <HeartBeatSVG size={100} color="crimson" />
+    </div>
+  );
 }
 
 export default Home;
