@@ -16,11 +16,21 @@ export default function HeartBeat({ size = 120, color = "red" }) {
         }
 
         @keyframes beat {
-          0% { transform: scale(1); }
-          25% { transform: scale(1.18); }
-          40% { transform: scale(0.9); }
-          60% { transform: scale(1.22); }
-          100% { transform: scale(1); }
+          0% {
+            transform: scale(1);
+          }
+          25% {
+            transform: scale(1.18);
+          }
+          40% {
+            transform: scale(0.9);
+          }
+          60% {
+            transform: scale(1.22);
+          }
+          100% {
+            transform: scale(1);
+          }
         }
       `}</style>
     </svg>
